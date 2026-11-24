@@ -1,0 +1,13 @@
+# `#print axioms` for each headline theorem, as Lean prints it (lake env lean Axioms.lean).
+# Toolchain: Lean (version 4.36.0, arm64-apple-darwin24.6.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+
+'proof_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+'proof_partII' depends on axioms: [propext, Classical.choice, Quot.sound]
+'proof_partI' depends on axioms: [propext, Classical.choice, Quot.sound]
+'proof_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'proof_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'proof_coords' depends on axioms: [propext, Classical.choice, Quot.sound]
+'proof_cor1_i' depends on axioms: [propext, Classical.choice, Quot.sound]
+'proof_cor1_ii' depends on axioms: [propext, Classical.choice, Quot.sound]
+'final' depends on axioms: [propext, Classical.choice, Quot.sound]
+'challenge_solved' depends on axioms: [propext, Classical.choice, Quot.sound]
